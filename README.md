@@ -26,3 +26,13 @@ cv2.imwrite()
 视频录制
 滑动条 cv2.createTrackbar()
 ```
+## [chapter04](https://github.com/2226171237/py-opencv/blob/master/chapter04_%E5%9B%BE%E5%83%8F%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.ipynb):
+* 图像基本操作
+```
+访问和修改图像像素点的值
+获取图像的宽高和通道数等属性
+分离和合并图像通道
+img[y,x]获取/设置像素点值，img.shape：图片的形状（行数、列数、通道数）,img.dtype：图像的数据类型。
+
+img[y1:y2,x1:x2]进行ROI截取，cv2.split()/cv2.merge()通道分割/合并。更推荐的获取单通道方式：b = img[:, :, 0]。
+```
