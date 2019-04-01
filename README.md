@@ -17,4 +17,12 @@ cv2.imread()
 cv2.imshow()
 cv2.imwrite()
 ```
-## chapter02:
+## chapter03:
+* 打开摄像头
+
+```
+函数：cv2.VideoCapture(),cv2.VideoWriter()
+视频播放 
+视频录制
+滑动条 cv2.createTrackbar()
+```
