@@ -72,4 +72,15 @@ cv2.warpAffine()进行仿射变换
 cv2.getPerspectiveTransform()生成透视变换3x3矩阵
 cv2.warpPerspective() 进行透视变换
 ```
+## [chapter09](https://github.com/2226171237/py-opencv/blob/master/chapter09_%E7%BB%98%E5%9B%BE%E5%8A%9F%E8%83%BD.ipynb):
 
+* 绘制各种几何形状，添加文字
+```
+函数：
+cv2.line()
+cv2.circle()
+cv2.rectangle()
+cv2.ellipse()
+cv2.putText()
+画多条直线时，cv2.polylines()要比cv2.line()高效很多。
+```
