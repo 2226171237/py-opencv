@@ -46,4 +46,12 @@ img[y1:y2,x1:x2]进行ROI截取，cv2.split()/cv2.merge()通道分割/合并。�
 追踪视频中特定颜色的物体
 
 ```
+## [chapter06](https://github.com/2226171237/py-opencv/blob/master/chapter06_%E9%98%88%E5%80%BC%E5%88%86%E5%89%B2.ipynb):
+* 图像阈值分割
+```
+使用固定阈值、自适应阈值和Otsu阈值二值化图像
+函数：cv2.threshold(),cv2.adaptiveThreshold()
+高效的阈值分割算法Otsu(最大类间方差)阈值分割：cv2.threshold(img,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
+```
+
 
