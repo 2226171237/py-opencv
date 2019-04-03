@@ -53,5 +53,14 @@ img[y1:y2,x1:x2]进行ROI截取，cv2.split()/cv2.merge()通道分割/合并。�
 函数：cv2.threshold(),cv2.adaptiveThreshold()
 高效的阈值分割算法Otsu(最大类间方差)阈值分割：cv2.threshold(img,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 ```
+## [chapter07](https://github.com/2226171237/py-opencv/blob/master/chapter07_%E5%9B%BE%E5%83%8F%E5%87%A0%E4%BD%95%E5%8F%98%E6%8D%A2.ipynb):
+* 图像几何操作，旋转、平移、缩放和翻转
+```
+实现旋转、平移和缩放图片
+函数：cv2.resize(),cv2.flip(),cv2.warpAffine()
+cv2.resize()缩放图片，可以按指定大小缩放，也可以按比例缩放。
+cv2.flip()翻转图片，可以指定水平/垂直/水平垂直翻转三种方式。
+平移/旋转是靠仿射变换cv2.warpAffine()实现的。
+```
 
 
