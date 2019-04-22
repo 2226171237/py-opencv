@@ -84,3 +84,9 @@ cv2.ellipse()
 cv2.putText()
 画多条直线时，cv2.polylines()要比cv2.line()高效很多。
 ```
+## [chapter10](https://github.com/2226171237/py-opencv/blob/master/chapter10_%E9%BC%A0%E6%A0%87%E7%BB%98%E5%9B%BE.ipynb):
+* 鼠标绘图
+```
+捕获鼠标事件
+函数 cv2.setMouseCallback()
+```
