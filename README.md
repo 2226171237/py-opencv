@@ -96,3 +96,12 @@ cv2.putText()
 v2.add()用来叠加两幅图片，cv2.addWeighted()也是叠加两幅图片，但两幅图片的权重不一样。
 cv2.bitwise_and(), cv2.bitwise_not(), cv2.bitwise_or(), cv2.bitwise_xor()分别执行按位与/或/非/异或运算。掩膜就是用来对图片进行全局或局部的遮挡。
 ```
+## [chapter12](https://github.com/2226171237/py-opencv/blob/master/chapter12_%E5%9B%BE%E5%83%8F%E5%B9%B3%E6%BB%91.ipynb):
+* 图像滤波
+```
+在不知道用什么滤波器好的时候，优先高斯滤波cv2.GaussianBlur()，然后均值滤波cv2.blur()。
+斑点和椒盐噪声优先使用中值滤波cv2.medianBlur()。
+要去除噪点的同时尽可能保留更多的边缘信息，使用双边滤波cv2.bilateralFilter()。
+线性滤波方式：均值滤波、方框滤波、高斯滤波（速度相对快）。
+非线性滤波方式：中值滤波、双边滤波（速度相对慢）。
+```
