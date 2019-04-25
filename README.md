@@ -90,3 +90,9 @@ cv2.putText()
 捕获鼠标事件
 函数 cv2.setMouseCallback()
 ```
+## [chapter11](https://github.com/2226171237/py-opencv/blob/master/chapter11_%E5%9B%BE%E5%83%8F%E6%B7%B7%E5%90%88.ipynb):
+* 图像混合操作
+```
+v2.add()用来叠加两幅图片，cv2.addWeighted()也是叠加两幅图片，但两幅图片的权重不一样。
+cv2.bitwise_and(), cv2.bitwise_not(), cv2.bitwise_or(), cv2.bitwise_xor()分别执行按位与/或/非/异或运算。掩膜就是用来对图片进行全局或局部的遮挡。
+```
